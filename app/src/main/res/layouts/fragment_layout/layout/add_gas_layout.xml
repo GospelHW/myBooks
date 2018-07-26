@@ -15,7 +15,7 @@
     android:paddingTop="@dimen/activity_horizontal_margin"
     android:scrollbars="vertical"
     android:weightSum="1"
-    tools:context="com.dxc.mycollector.AddGasAcitvity">
+    tools:context="gospel.books.AddGasAcitvity">
 
     <ScrollView
         android:layout_width="match_parent"

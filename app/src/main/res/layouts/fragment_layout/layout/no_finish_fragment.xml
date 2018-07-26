@@ -8,14 +8,14 @@
     android:layout_height="fill_parent"
     android:padding="5dp">
 
-    <com.dxc.mycollector.pullableview.PullToRefreshLayout
+    <gospel.books.pullableview.PullToRefreshLayout
         android:id="@+id/no_finish_refresh_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <include layout="@layout/refresh_head" />
 
-        <com.dxc.mycollector.pullableview.PullableListView
+        <gospel.books.pullableview.PullableListView
             android:id="@+id/no_finish_listView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -24,7 +24,7 @@
 
         <include layout="@layout/load_more" />
 
-    </com.dxc.mycollector.pullableview.PullToRefreshLayout>
+    </gospel.books.pullableview.PullToRefreshLayout>
 
     <TextView
         android:id="@+id/no_finish_empty"

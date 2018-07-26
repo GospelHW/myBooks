@@ -9,7 +9,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.dxc.mycollector.PersonAcitvity">
+    tools:context="gospel.books.PersonAcitvity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,7 +45,7 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
-        <com.dxc.mycollector.ShuiBoWenView
+        <gospel.books.ShuiBoWenView
             android:id="@+id/clgl_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -72,9 +72,9 @@
                 android:text="Books"
                 android:textColor="#4e5f71"
                 android:textSize="@dimen/personal_text_view2" />
-        </com.dxc.mycollector.ShuiBoWenView>
+        </gospel.books.ShuiBoWenView>
 
-        <com.dxc.mycollector.ShuiBoWenView
+        <gospel.books.ShuiBoWenView
             android:id="@+id/sjgl_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -103,9 +103,9 @@
                 android:text="OrderList"
                 android:textColor="#4e5f71"
                 android:textSize="@dimen/personal_text_view2" />
-        </com.dxc.mycollector.ShuiBoWenView>
+        </gospel.books.ShuiBoWenView>
 
-        <com.dxc.mycollector.ShuiBoWenView
+        <gospel.books.ShuiBoWenView
             android:id="@+id/rwgl_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -134,9 +134,9 @@
                 android:text="Shepherd"
                 android:textColor="#4e5f71"
                 android:textSize="@dimen/personal_text_view2" />
-        </com.dxc.mycollector.ShuiBoWenView>
+        </gospel.books.ShuiBoWenView>
 
-        <com.dxc.mycollector.ShuiBoWenView
+        <gospel.books.ShuiBoWenView
             android:id="@+id/aqgl_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
                 android:text="..."
                 android:textColor="#4e5f71"
                 android:textSize="@dimen/personal_text_view2" />
-        </com.dxc.mycollector.ShuiBoWenView>
+        </gospel.books.ShuiBoWenView>
     </LinearLayout>
 
     <LinearLayout
@@ -173,7 +173,7 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
-        <com.dxc.mycollector.ShuiBoWenView
+        <gospel.books.ShuiBoWenView
             android:id="@+id/cadtz_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -199,9 +199,9 @@
                 android:text="Analysis"
                 android:textColor="#4e5f71"
                 android:textSize="@dimen/personal_text_view2" />
-        </com.dxc.mycollector.ShuiBoWenView>
+        </gospel.books.ShuiBoWenView>
 
-        <com.dxc.mycollector.ShuiBoWenView
+        <gospel.books.ShuiBoWenView
             android:id="@+id/tjgl_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -227,7 +227,7 @@
                 android:text="ADD"
                 android:textColor="#4e5f71"
                 android:textSize="@dimen/personal_text_view2" />
-        </com.dxc.mycollector.ShuiBoWenView>
+        </gospel.books.ShuiBoWenView>
 
         <LinearLayout
             android:layout_width="85dp"

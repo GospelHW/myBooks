@@ -8,7 +8,7 @@
     android:collapseColumns="*"
     android:paddingRight="4dp"
     android:paddingLeft="4dp"
-    tools:context="com.dxc.mycollector.SafeUpdateActivity">
+    tools:context="gospel.books.SafeUpdateActivity">
 
 
        android:stretchColumns="*"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.dxc.mycollector">
+    package="gospel.books">
 
     <uses-feature android:glEsVersion="0x00020000" />
     <uses-feature android:glEsVersion="0x00010001" />
@@ -78,19 +78,19 @@
             android:windowSoftInputMode="adjustResize|stateHidden"></activity>
 
         <activity
-            android:name="com.dxc.mycollector.ReadRecordListActivity"
+            android:name="gospel.books.ReadRecordListActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="com.dxc.mycollector.NewRecordAcitvity"
+            android:name="gospel.books.NewRecordAcitvity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="com.dxc.mycollector.ReaderShowActivity"
+            android:name="gospel.books.ReaderShowActivity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="com.dxc.mycollector.ReaderAcitvity"
+            android:name="gospel.books.ReaderAcitvity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="com.dxc.mycollector.ReaderListActivity"
+            android:name="gospel.books.ReaderListActivity"
             android:screenOrientation="portrait"></activity>
         <activity
             android:name=".BooksAcitvity"
@@ -99,10 +99,10 @@
             android:name=".RegisterAcitvity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="com.dxc.mycollector.AddGasAcitvity"
+            android:name="gospel.books.AddGasAcitvity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="com.dxc.mycollector.HomeAcitvity"
+            android:name="gospel.books.HomeAcitvity"
             android:screenOrientation="portrait"></activity>
         <activity
             android:name=".BaseActivity"
@@ -169,9 +169,9 @@
 
 
         <service
-            android:name="com.dxc.mycollector.taskDownload.DownLoadService"
+            android:name="gospel.books.taskDownload.DownLoadService"
             android:persistent="true" />
-        <service android:name="com.dxc.mycollector.bluetooth.BluetoothClientService" />
+        <service android:name="gospel.books.bluetooth.BluetoothClientService" />
     </application>
 
 </manifest>

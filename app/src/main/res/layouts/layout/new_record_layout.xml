@@ -15,7 +15,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:scrollbars="vertical"
     android:weightSum="1"
-    tools:context="com.dxc.mycollector.NewRecordAcitvity">
+    tools:context="gospel.books.NewRecordAcitvity">
 
     <ScrollView
         android:layout_width="match_parent"
